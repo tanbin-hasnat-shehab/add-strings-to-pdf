@@ -36,3 +36,6 @@ for i in range(existing_pdf.numPages):
 outputStream = open("water_marked.pdf", "wb")
 output.write(outputStream)
 outputStream.close()
+with open(outputStream.name,'wb') as f:
+	f.write(outputStream.getbuffer())
+st.success('done')
