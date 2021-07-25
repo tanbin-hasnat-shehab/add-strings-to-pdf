@@ -1,10 +1,11 @@
 
 from reportlab.pdfgen import canvas
 from PyPDF2 import PdfFileWriter, PdfFileReader
+import streamlit as st
 
 
 
-
+st.title('app')
 selected_file='a.pdf'
 my_pdf=canvas.Canvas('temp.pdf')
 
