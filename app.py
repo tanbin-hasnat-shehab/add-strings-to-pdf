@@ -1,17 +1,7 @@
 
-from PyPDF2 import PdfFileReader, PdfFileWriter
-import os
-import time
-
-from fuzzywuzzy import fuzz,process
-from openpyxl import Workbook
-import random
-import string
-from tkinter import*
-from tkdocviewer import*
 from reportlab.pdfgen import canvas
 from PyPDF2 import PdfFileWriter, PdfFileReader
-import io
+
 
 
 
